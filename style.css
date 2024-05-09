@@ -1,0 +1,226 @@
+html {
+    font-size: 14px;
+    font-family: Metropolis, Metropolis-Fallback, Noto Color Emoji, sans-serif;
+    letter-spacing: -.015em;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+header {
+    position: relative;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+}
+
+
+#logo * {
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    background-color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    color: white;
+    font-size: 30px;
+}
+
+#logo a {
+    width: fit-content;
+}
+
+.padLeft {
+    padding-left: 2vw;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.navigation-bar>div:nth-child(2) {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation-bar>div {
+    flex: 1;
+}
+
+
+header>nav {
+    margin: 0 3vw 0 3vw;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-main {
+    color: rgba(105, 160, 215, .4);
+    background-color: black;
+}
+
+h6 {
+    transition: transform 0.3s;
+}
+
+h6:hover {
+    transform: scale(1.1);
+}
+
+
+/*first block*/
+
+.firstblock {
+
+    margin: 0;
+    padding: 1vh 5vw 1vh 5vw;
+    background-color: #212121;
+    /* Black background for the entire page */
+    color: white;
+    /* White text for better readability */
+}
+
+#contact {
+    border-collapse: collapse;
+}
+
+#contact tr {
+    border-top: solid 1px rgb(139, 139, 139);
+}
+
+#contact td {
+    padding: 3vh 2vw 3vh 2vw;
+}
+
+
+.center h2 {
+    margin-bottom: 6vh;
+}
+
+h2,
+h3 {
+    color: orange;
+}
+
+html h2 {
+    margin-top: 5vh;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+a {
+    color: orange;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+text {
+    display: block;
+}
+
+.mycolumn-2 {
+    margin: 0 20vw 0 20vw;
+}
+
+.mycolumn-1 {
+    margin: 0 10vw 0 10vw;
+}
+
+
+.knowledge>div {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 3vw;
+}
+
+.knowledge>div>div {
+    max-width: 50%;
+}
+
+/*  Animation
+.navigation-bar a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navigation-bar a:hover {
+    color: orange;
+    transform: scale(1.1);
+}
+
+html {
+    animation: fadeIn 1s ease-in;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.firstblock section {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.firstblock section:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+*/
