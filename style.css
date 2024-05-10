@@ -47,6 +47,7 @@ body {
     margin-right: 0;
     color: white;
     font-size: 30px;
+
 }
 
 #logo a {
@@ -101,17 +102,32 @@ h6:hover {
 /*first block*/
 
 .firstblock {
-
+    font-size: 20px;
     margin: 0;
     padding: 1vh 5vw 1vh 5vw;
     background-color: #212121;
     /* Black background for the entire page */
     color: white;
     /* White text for better readability */
+    display: flex;
+    flex-direction: row;
+}
+
+.firstblock>div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#portraitImg {
+    height: 60vh;
 }
 
 #contact {
     border-collapse: collapse;
+    margin: 5vh 10vw 5vh 0vw;
 }
 
 #contact tr {
@@ -149,6 +165,7 @@ a {
 }
 
 .center {
+    margin-top: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,6 +184,11 @@ text {
     margin: 0 10vw 0 10vw;
 }
 
+.toRow {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .knowledge>div {
     display: flex;
@@ -178,6 +200,14 @@ text {
 .knowledge>div>div {
     max-width: 50%;
 }
+
+.background {
+    background-image: url(images/bg.jpg);
+    padding: 5vh 0 5vh 0;
+    margin: 5vh 0 5vh 0;
+}
+
+#likeText {}
 
 /*  Animation
 .navigation-bar a {
